@@ -1,12 +1,13 @@
 # AI Chatbot Suggestions overnight
 
 ```mermaid
-flowchart LR
-
-A[Hard] -->|Text| B(Round)
-B --> C{Decision}
-C -->|One| D[Result 1]
-C -->|Two| E[Result 2]
+graph TD
+  User[Usuário] -->|Navegador| Netlify[Frontend (HTML/CSS/JS)]
+  Netlify -->|Requisição HTTP POST| BackendAPI[Backend (Python, Ex: Render/Vercel)]
+  BackendAPI -->|1. Envia Histórico + Pergunta| OpenAI[API OpenAI]
+  OpenAI -->|2. Resposta do LLM| BackendAPI
+  BackendAPI -->|3. Resposta do Chatbot + Sugestão| Netlify
+  BackendAPI -->|4. Consulta Catálogo| JSONFile[Catálogo de Produtos (JSON)]
 ```
 
 
