@@ -2,8 +2,8 @@
 
 ```mermaid
 graph TD
-    A[Square Rect] -- Link text --> B((Circle))
-    B --> C(Round Rect)
+    User[Usuario] -- Navegador --> Netlify[Frontend (HTML/CSS/JS)]
+    Netlify --> C(Round Rect)
     C --> D{Rhombus}
 ```
 
