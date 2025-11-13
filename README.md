@@ -2,7 +2,7 @@
 
 ```mermaid
 graph TD
-    User[Usuario] -- Navegador --> Netlify[Frontend (HTML/CSS/JS)]
+    User[Usuario] -- Navegador --> Netlify[Frontend :HTML/CSS/JS]
     Netlify --> C(Round Rect)
     C --> D{Rhombus}
 ```
