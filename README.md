@@ -2,12 +2,12 @@
 
 ```mermaid
 graph TD
-  User[Usuário] -->|Navegador| Netlify[Frontend (HTML/CSS/JS)]
-  Netlify -->|Requisição HTTP POST| BackendAPI[Backend (Python, Ex: Render/Vercel)]
-  BackendAPI -->|1. Envia Histórico + Pergunta| OpenAI[API OpenAI]
-  OpenAI -->|2. Resposta do LLM| BackendAPI
-  BackendAPI -->|3. Resposta do Chatbot + Sugestão| Netlify
-  BackendAPI -->|4. Consulta Catálogo| JSONFile[Catálogo de Produtos (JSON)]
+  User[Usuário] -- Navegador --> Netlify[Frontend (HTML/CSS/JS)]
+  Netlify -- Requisição HTTP POST --> BackendAPI[Backend (Python, Ex: Render/Vercel)]
+  BackendAPI -- 1. Envia Histórico + Pergunta --> OpenAI[API OpenAI]
+  OpenAI -- 2. Resposta do LLM --> BackendAPI
+  BackendAPI -- 3. Resposta do Chatbot + Sugestão --> Netlify
+  BackendAPI -- 4. Consulta Catálogo --> JSONFile[Catálogo de Produtos (JSON)]
 ```
 
 
