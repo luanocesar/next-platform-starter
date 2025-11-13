@@ -1,8 +1,8 @@
-# Next.js on Netlify Platform Starter
+# AI Chatbot Suggestions overnight
 
-[Live Demo](https://nextjs-platform-starter.netlify.app/)
+[Project Link](https://huggingface.co/spaces/maya-research/maya1)
 
-A modern starter based on Next.js 14 (App Router), Tailwind, and [Netlify Core Primitives](https://docs.netlify.com/core/overview/#develop) (Edge Functions, Image CDN, Blob Store).
+It's a AI chatbot that suggests to the user best options of food it can be taken overnight without have a stomach issue.
 
 In this site, Netlify Core Primitives are used both implictly for running Next.js features (e.g. Route Handlers, image optimization via `next/image`, and more) and also explicitly by the user code.
 
