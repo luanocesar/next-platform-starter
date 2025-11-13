@@ -1,11 +1,13 @@
 # AI Chatbot Suggestions overnight
 
 ```mermaid
-graph LR
-    A[Square Rect] -- Link text --> B((Circle))
-    A --> C(Round Rect)
-    B --> D{Rhombus}
-    C --> D
+flowchart LR
+
+A[Hard] -->|Text| B(Round)
+B --> C{Decision}
+C -->|One| D[Result 1]
+C -->|Two| E[Result 2]
+```
 
 
 [Project Link](https://huggingface.co/spaces/maya-research/maya1)
