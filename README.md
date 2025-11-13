@@ -1,7 +1,7 @@
 # AI Chatbot Suggestions overnight
 
 ```mermaid
-graph TD
+graph LR
     User[Usuario] -- Navegador --> Netlify[Frontend :HTML/CSS/JS]
     Netlify --> C(Round Rect)
     C --> D{Rhombus}
