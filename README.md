@@ -1,5 +1,6 @@
 # AI Chatbot Suggestions overnight
 
+```mermaid
 graph TD
     User[Usuário] -->|Navegador| Netlify[Frontend (HTML/CSS/JS)]
     Netlify -->|Requisição HTTP POST| BackendAPI[Backend (Python, Ex: Render/Vercel)]
